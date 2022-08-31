@@ -1,0 +1,351 @@
+{   
+	
+	
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "存单快贷"
+			}
+		}, 
+	
+		{
+			"path": "pages/loan/loanApply",
+			"style": {
+				"navigationBarTitleText": "用款申请"
+			}
+		
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+
+		}, {
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/credit/credit",
+			"style": {
+				"navigationBarTitleText": "授信申请",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/credit/createApply",
+			"style": {
+				"navigationBarTitleText": "授信申请",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"titleSize": "36rpx"
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/credit/creditSpouse",
+			"style": {
+				"navigationBarTitleText": "授信授权申请确认",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/personalCenter/cardManage/addBankCard",
+			"style": {
+				"navigationBarTitleText": "变更银行卡",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/personalCenter/personalCenter",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/personalCenter/cardManage/cardManage",
+			"style": {
+				"navigationBarTitleText": "银行卡管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/personalCenter/cardManage/addCardResult",
+			"style": {
+				"navigationBarTitleText": "添加结果",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/personalCenter/mineCredit/mineCredit",
+			"style": {
+				"navigationBarTitleText": "我的额度",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/mineLoan/mineLoan",
+			"style": {
+				"navigationBarTitleText": "我的贷款",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/mineLoan/loanDetail",
+			"style": {
+				"navigationBarTitleText": "贷款详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/mineLoan/repaymentPlan",
+			"style": {
+				"navigationBarTitleText": "我的贷款",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/mineLoan/minPepaymentPlan",
+			"style": {
+				"navigationBarTitleText": "还款计划",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/mineLoan/repaymenPlanEnd",
+			"style": {
+				"navigationBarTitleText": "我的贷款",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/mineLoan/paymentEndProve",
+			"style": {
+				"navigationBarTitleText": "结清证明",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/mineLoan/advancePaymentEnd",
+			"style": {
+				"navigationBarTitleText": "提前结清",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/mineLoan/prepaymentPage",
+			"style": {
+				"navigationBarTitleText": "提前还款",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/personalCenter/mineLoan/paymentEndResult",
+			"style": {
+				"navigationBarTitleText": "提前结清结果",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/mineAuthorization/mineAuthorization",
+			"style": {
+				"navigationBarTitleText": "我的授权",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/mineAuthorization/creditAuthorizationApplay",
+			"style": {
+				"navigationBarTitleText": "授信授权申请",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/mineAuthorization/authorizationResult",
+			"style": {
+				"navigationBarTitleText": "授权结果",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/mineAuthorization/loanAuthorizationApplay",
+			"style": {
+				"navigationBarTitleText": "用款授权申请",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/credit/creditApplyResult",
+			"style": {
+				"navigationBarTitleText": "授信申请结果",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/common/smsVerification/smsVerification",
+			"style": {
+				"navigationBarTitleText": "短信验证",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/loan/loanList",
+			"style": {
+				"navigationBarTitleText": "用款申请",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/loan/applyForPay",
+			"style": {
+				"navigationBarTitleText": "用款申请",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/loan/pepaymentPlan",
+			"style": {
+				"navigationBarTitleText": "还款计划",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/loan/applyConfirm",
+			"style": {
+				"navigationBarTitleText": "用款申请确认",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/loan/creditApplyConfirm",
+			"style": {
+				"navigationBarTitleText": "用款授权申请确认",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/loan/uploadFile",
+			"style": {
+				"navigationBarTitleText": "上传附件",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/loan/loanApplyResult",
+			"style": {
+				"navigationBarTitleText": "用款申请结果",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "component/ReadDocument",
+			"style": {
+				"navigationBarTitleText": "文档阅读",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "component/FaceAndOcr",
+			"style": {
+				"navigationBarTitleText": "人脸核身",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/mineLoan/overduePayment",
+			"style": {
+				"navigationBarTitleText": "逾期还款",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalCenter/logout/logoutResult",
+			"style": {
+				"navigationBarTitleText": "注销账号结果",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/credit/queryDeposits",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "存单查询",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/credit/depositDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "存单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/credit/otherInformation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "授信申请",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/credit/enterpriseInformation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "授信申请",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/personalCenter/cardManage/cardVerification",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle":"custom",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "日照银行",
+		"navigationBarBackgroundColor": "#FF661A",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#FF661A",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/01icon_syq_48.png", //未选中
+				"selectedIconPath": "static/01icon_syh_48.png" //被选中
+			},
+			{
+				"pagePath": "pages/personalCenter/personalCenter",
+				"text": "我的",
+				"iconPath": "static/01icon_wdq_48.png", //未选中
+				"selectedIconPath": "static/01icon_wdh_48.png" //被选中
+			}
+		]
+	},
+	"easycom": {
+	  "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	 }
+}
