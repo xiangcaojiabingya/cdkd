@@ -65,6 +65,22 @@
 					</view>
 				</view>
 			</view>
+			<view class="numkeyboard" v-if="type==='moneys'">
+				<view class="num-area">
+					<view class="row" v-for="(item,index) in numKeybordLists" :key="index">
+						<view :class="['item',ite===0?'z':'',(disableDot && ite==='.')?'disabled':'']" v-for="(ite,idx) in item"
+						 hover-class="active" :hover-start-time="0" :hover-stay-time="5" :key="idx" @tap="input(ite)">{{ite}}</view>
+					</view>
+				</view>
+				<view class="btn-area">
+					<view :class="['item','del']" hover-class="active" :hover-start-time="0" :hover-stay-time="5" @tap="deleteVal">
+						删除
+					</view>
+					<view class="confirem item" hover-class="active" :hover-start-time="0" :hover-stay-time="5" @tap="confirm">
+						完成
+					</view>
+				</view>
+			</view>
 
 			<view class="platenumber" v-if="type==='plateNumber'">
 				<view class="header">
@@ -127,6 +143,12 @@
 					[7, 8, 9],
 					[0]
 					// [0, '.']
+				],
+				numKeybordLists: [
+					[1, 2, 3],
+					[4, 5, 6],
+					[7, 8, 9],
+					[0, '.']
 				],
 				idCardList: [
 					[1, 2, 3],

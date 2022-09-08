@@ -15,7 +15,7 @@
 			}
 		},
 		onLoad() {
-			console.log('全局变量', this.$gfdGlobalData.getData('RedirectUrl'))
+			// console.log('全局变量', this.$gfdGlobalData.getData('RedirectUrl'))
 			this.getBizToken()
 		},
 
@@ -48,7 +48,7 @@
 					url: this.getAccessUrl() + this.$gfdGlobalData.getData('RedirectUrl')
 				}).then(res => {
 					uni.hideLoading();
-					console.log('获取人脸核身数据', res)
+					// console.log('获取人脸核身数据', res)
 					this.bizToken = res.bizToken;
 					this.$gfdGlobalData.setData('bizToken', this.bizToken)
 					// getApp().globalData.bizToken = this.bizToken
@@ -59,7 +59,7 @@
 					}, 1000)
 
 				}).catch(error => {
-					console.log(error);
+					// console.log(error);
 				})
 			}
 

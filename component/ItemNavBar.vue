@@ -33,7 +33,7 @@
 		},
 		methods: {
 			onClickLeft() {
-				console.log('bbbbbbbbbbbbbbbb',this.st)
+				// console.log('bbbbbbbbbbbbbbbb',this.st)
 				if (this.st == 1) {
 					uni.redirectTo({
 						url: `./credit`

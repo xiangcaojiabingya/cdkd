@@ -28,14 +28,14 @@
 			}
 		},
 		onLoad(params) {
-			console.log('文本地址：', this.$gfdGlobalData.getData('contractInfoList'));
+			// console.log('文本地址：', this.$gfdGlobalData.getData('contractInfoList'));
 			this.fileUrl = JSON.stringify({
 				contractInfoList: this.$gfdGlobalData.getData('contractInfoList')
 			});
 			let documentUrl = this.getAccessUrl()
 			let url =
 				'https://ttt.ebanktest.com.cn:39009/statics/wxapp_file/pdfPageH5/#/pdfPage?docServer=' + documentUrl + '&linkList=' +
-				this.fileUrl + '&buttonText=我已知晓并同意签署&backFlag=back';
+				 this.fileUrl + '&buttonText=我已知晓并同意签署&backFlag=back';
 			if (!params.noTime) {
 				url += '&timer=5'
 			}
